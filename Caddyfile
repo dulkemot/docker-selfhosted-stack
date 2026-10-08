@@ -1,0 +1,8 @@
+# Contoh Caddyfile — ganti domainmu
+uptime.domainmu.id {
+	reverse_proxy uptime-kuma:3001
+}
+
+grafana.domainmu.id {
+	reverse_proxy grafana:3000
+}
